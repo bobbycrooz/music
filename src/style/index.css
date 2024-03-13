@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+     overflow-x: hidden;
+     color: white
+    }
+
+    /* *{
+      @apply border border-red-500 ;
+
+    } */
+
+
+    .br{
+      @apply border border-red-500 ;
+    }
+
+    .bg{
+      @apply border border-green-500 ;
+    }
+
+    .centered{
+      @apply flex items-center justify-center;
+    }
+
+    .title{
+      @apply font-semibold text-xl capitalize;
+    }
+
+    .main-page-layout{
+      height: calc(100vh - 68px);
+    }
+
+    .full{
+      @apply w-full h-full;
+    }
+
+    /* .music-slide{
+      background: url(/img/ottawa.jpg) center center/cover no-repeat;
+    } */
